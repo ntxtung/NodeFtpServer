@@ -1,0 +1,23 @@
+{
+  "name": "ftp-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "hoangnam",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ftp-srv": "^4.3.1",
+    "nedb": "^1.8.0"
+  },
+  "scripts": {
+    "start": "babel-node ./src/index.js",
+    "dev": "nodemon --exec babel-node ./src/index.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/node": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
+    "nodemon": "^2.0.4"
+  }
+}
